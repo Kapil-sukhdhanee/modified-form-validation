@@ -35,7 +35,7 @@ function nameValidation(){
         myVerification = false;
     }
     
-    fstName.split(' ').length==2 ? (myVerification = true) : (myVerification = false,  giveError("name","Invalid  Name"))
+    fstName.split(' ').length==3 ? (myVerification = true) : (myVerification = false,  giveError("name","Invalid  Name"))
 
     return myVerification;    
 }
